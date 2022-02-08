@@ -123,7 +123,7 @@ export default {
       this.message = "";
     },
     newButtonIndex() {
-      const btnIndex = Math.floor(Math.random() * 3);
+      const btnIndex = Math.floor(Math.random() * 4);
       return btnIndex;
     },
     checkClick(index) {
